@@ -1,11 +1,9 @@
 package co.edu.unbosque.ProyectoAlkosto.controller;
 
-import java.io.IOException;
 import java.sql.Date;
 import java.util.List;
 import java.util.Optional;
 
-import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
