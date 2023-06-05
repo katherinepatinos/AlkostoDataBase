@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EmpleadosPasto</title>
+<link href="Styles/Style.css" rel="stylesheet" type="text/css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+	crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="alert alert-primary">
+		<img src="Media/AlkostoLogo.png" id="logo">
+		<h3 id="ins">Alkosto manejo de datos</h3>
+	</div>
+
+	<br>
+	<br>
+
+	<div id="cards">
+
+
+		<h3 class="text-primary">Que función desea realizar</h3>
+
+		<br> <br>
+		<div class="card" id="agCard">
+			<img src="Media/agEmp.png" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title	">Agregar a empleado</h5>
+				<p class="card-text">Agregar un nuevo empleado a Alkosto</p>
+				<button class="btn btn-warning stretched-link" onclick="ocultar()">Agregar</button>
+			</div>
+		</div>
+
+
+		<br> <br>
+
+		<div id="mosCard" class="card">
+			<img src="Media/mos.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Ver lista de empleados</h5>
+				<p class="card-text">Ver lista de empleados y su información</p>
+				<button class="btn btn-primary stretched-link" onclick="mostrarEmpPas()">Mostrar</button>
+
+				<br> <br>
+
+				<div class="card" id="venCard">
+					<img src="Media/agInv.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title	">Agregar venta</h5>
+						<p class="card-text">Agregar venta hecha por el empleado</p>
+						<button class="btn btn-warning stretched-link" onclick="ocultar2()">Venta</button>
+					</div>
+				</div>
+
+				<br> <br>
+
+				<div class="card" id="desCard">
+					<img src="Media/desEmp.jpeg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Despedir empleados</h5>
+						<p class="card-text">Despedir los empleados con menos ventas</p>
+						<button class="btn btn-primary stretched-link" onclick="despedirPas()">Despedir</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id= "agr">
+	<h3 class="text-primary">Ingrese el nombre del empleado</h3>
+	<input type="text" class="form-control" id="nom">
+	<br>
+	<h3 class="text-warning">Ingrese la fecha de nacimiento</h3>
+	<input type="date" class= "form-control" id="naci">
+	<br>
+	<h3 class="text-primary">Genero</h3>
+	<select class="form-select" id="sexo">
+			<option value="M">Masculino</option>
+			<option value="F">Femenino</option>	
+		</select>
+	<br>
+	<h3 class="text-warning">Ingrese la fecha de ingreso</h3>
+	<input type="date" class= "form-control" id="ing">
+	<br>
+	<h3 class="text-primary">Cantidad de ventas por producto</h3>
+	<input type="number" class= "form-control" id="ventas">
+	<br>
+	<h3 class="text-warning">Producto vendido (Solo 1 producto)</h3>
+	<input type="text" class="form-control" id="pro">
+	<br>
+	
+	<button class="btn btn-success" onclick= "agregarEmpPas()">Agregar</button>
+	</div>
+	
+	<div id= "actu">
+	<h3 class="text-warning">Ingrese el nombre del empleado</h3>
+	<input type="text" class= "form-control" id="nomAct">
+	<br>
+	<h3 class="text-primary">Cantidad de nuevas ventas por producto</h3>
+	<input type="number" class= "form-control" id="venAct">
+	<br>
+	<h3 class="text-warning">Nuevo producto vendido (Solo 1 producto)</h3>
+	<input type="text" class="form-control" id="proAct">
+	<br>
+	<button class="btn btn-success" onclick= "actualizarBog()">Actualizar ventas</button>
+	</div>
+	
+	<script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>

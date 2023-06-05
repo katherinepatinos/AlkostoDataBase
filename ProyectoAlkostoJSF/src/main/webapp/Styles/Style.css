@@ -1,0 +1,149 @@
+#logo {
+	height: 13%;
+	width: 13%;
+}
+
+#ins {
+	margin-top: -55px;
+	margin-left: 470px;
+	font-size: 48px;
+}
+
+#lista {
+	width: 450px;
+}
+
+#texto {
+	margin-top: -80px;
+	margin-left: 830px;
+}
+
+#listap {
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 830px;
+}
+
+#inv {
+	display: none;
+}
+
+#emp {
+	height: 350px;
+	width: 450px;
+	display: none;
+}
+
+#bog {
+	position: fixed;
+	top: 300px;
+	left: 7px;
+	height: 350px;
+	width: 450px;
+	margin-left: 830px;
+	display: none;
+}
+
+#bar {
+	position: fixed;
+	top: 300px;
+	left: 7px;
+	height: 350px;
+	width: 450px;
+	margin-left: 830px;
+	display: none;
+}
+
+#cal {
+	position: fixed;
+	top: 300px;
+	left: 7px;
+	height: 350px;
+	width: 450px;
+	margin-left: 830px;
+	display: none;
+}
+
+#pas {
+	position: fixed;
+	top: 300px;
+	left: 7px;
+	height: 350px;
+	width: 450px;
+	margin-left: 830px;
+	display: none;
+}
+
+#per {
+	position: fixed;
+	top: 300px;
+	left: 7px;
+	height: 350px;
+	width: 450px;
+	margin-left: 830px;
+	display: none;
+}
+
+#sin {
+	position: fixed;
+	top: 300px;
+	left: 7px;
+	height: 350px;
+	width: 450px;
+	margin-left: 830px;
+	display: none;
+}
+
+#vil {
+	position: fixed;
+	top: 300px;
+	left: 7px;
+	height: 350px;
+	width: 450px;
+	margin-left: 830px;
+	display: none;
+}
+
+#ingresar {
+	margin-left: 610px;
+}
+
+#mosCard {
+	margin-left: 370px;
+	margin-top: -500px;
+	width: 18rem;
+	height: 23rem;
+}
+
+#agCard {
+	margin-left: 50px;
+	width: 18rem;
+	height: 28rem;
+}
+
+#venCard{
+	
+	width: 18rem;
+	height: 23rem;
+	margin-left: 310px;
+	margin-top: -330px;
+	
+}
+
+#desCard{
+	
+	width: 18rem;
+	height: 24rem;
+	margin-left: 650px;
+	margin-top: -415px;
+}
+
+#actu{
+	display: none;
+}
+
+#agr{
+	
+	display: none;
+}
+
