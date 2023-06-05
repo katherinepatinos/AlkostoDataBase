@@ -595,7 +595,7 @@ public class AlkostoController {
 	}
 
 	@GetMapping("/empleadosvillavicencio")
-	public ResponseEntity<List<EmpleadosVillavicencio>> mostrarEmpleadosvillavicencio() {
+	public ResponseEntity<List<EmpleadosVillavicencio>> mostrarEmpleadosVillavicencio() {
 		List<EmpleadosVillavicencio> op = villavicencio.findByOrderByVentasDesc();
 		if (op.isEmpty()) {
 			return ResponseEntity.status(HttpStatus.NO_CONTENT).body(null);
