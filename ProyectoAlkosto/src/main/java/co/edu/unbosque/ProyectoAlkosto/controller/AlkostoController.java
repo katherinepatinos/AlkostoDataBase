@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 import co.edu.unbosque.ProyectoAlkosto.model.*;
 import co.edu.unbosque.ProyectoAlkosto.repository.*;
 import co.edu.unbosque.ProyectoAlkosto.service.CrearPDF;
-import jakarta.servlet.http.HttpServletResponse;
 import jakarta.transaction.Transactional;
 
 @Transactional
