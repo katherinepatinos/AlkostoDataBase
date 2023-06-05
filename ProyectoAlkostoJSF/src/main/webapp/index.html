@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Seleccion</title>
+<link href="Styles/Style.css" rel="stylesheet" type="text/css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="alert alert-primary">
+		<img src="Media/AlkostoLogo.png" id="logo">
+		<h3 id="ins">Alkosto manejo de datos</h3>
+	</div>
+
+	<br>
+	<br>
+
+
+	<div>
+
+		<h3 class="text-warning">Elija que base de datos va a manejar</h3>
+
+		<select class="form-select" id="lista" onclick="mostrarImg1()">
+			<option value="Inventario">Inventario</option>
+			<option value="Empleados">Empleados</option>
+		</select>
+
+		<h3 class="text-warning" id="texto">Elija la ciudad a manejar</h3>
+
+		<select class="form-select" id="listap" onclick="mostrarImg2()">
+			<option value="Bogota">Bogota</option>
+			<option value="Barranquilla">Barranquilla</option>
+			<option value="Cali">Cali</option>
+			<option value="Pasto">Pasto</option>
+			<option value="Pereira">Pereira</option>
+			<option value="Sincelejo">Sincelejo</option>
+			<option value="Villavicencio">Villavicencio</option>
+		</select>
+	</div>
+
+	<br>
+	<br>
+
+	<div>
+
+		<img src="Media/inv.jpg" id="inv"> <img src="Media/emp.jpeg"
+			id="emp"> <img src="Media/bog.jpeg" id="bog"> <img
+			src="Media/bar.jpg" id="bar"> <img src="Media/cal.jpg" id="cal">
+		<img src="Media/pas.jpg" id="pas"> <img src="Media/per.jpeg"
+			id="per"> <img src="Media/sin.jpg" id="sin"> <img
+			src="Media/vil.jpg" id="vil">
+
+	</div>
+
+	<div>
+		<button type="button" class="btn btn-outline-primary" id="ingresar"
+			onclick="redireccionar()">Ingresar</button>
+	</div>
+
+	<script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>
