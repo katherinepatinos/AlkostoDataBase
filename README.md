@@ -22,4 +22,4 @@ Metodos en los empleados:
 
 ![Captura de pantalla 2023-06-04 191113](https://github.com/katherinepatinos/AlkostoDataBase/assets/124631450/1e4a1e33-0135-4299-a9e7-f1594d93a0f4)
 
-Tutorial:
+Tutorial: https://youtu.be/B04r4Tlcz50
